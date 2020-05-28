@@ -5,8 +5,6 @@
 MqttClient *client;
 Dht22 *dht22;
 
-const int pinDHT22 = 2;
-
 void setup() {
   client = new MqttClient();
   client->connect();
